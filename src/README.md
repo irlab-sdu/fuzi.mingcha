@@ -5,7 +5,7 @@
 您可以直接运行以下代码进行部署
 
 ```python
-python . /pylucene_task/csv_files/api.py --port "端口"
+python ./pylucene_task/csv_files/api.py --port "端口"
 ```
 
 如果想更换检索数据集，可以参考我们的检索数据库格式自行进行修改： `./pylucene_task/csv_files/data_task.csv`
@@ -13,8 +13,8 @@ python . /pylucene_task/csv_files/api.py --port "端口"
 
 ## 命令行 Demo
 
-![img](images/cli_demo_case1.png)
-![img](images/cli_demo_case2.png)
+![img](https://github.com/irlab-sdu/fuzi.mingcha/tree/main/images/cli_demo_case1.png)
+![img](https://github.com/irlab-sdu/fuzi.mingcha/tree/main/images/cli_demo_case2.png)
 
 运行仓库中 [cli_demo.py](cli_demo.py)：
 
