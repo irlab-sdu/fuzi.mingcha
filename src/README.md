@@ -1,8 +1,7 @@
 ## 依赖库安装
 
 1. 本项目的数据库检索部分使用 [PyLucene](https://lucene.apache.org/pylucene/index.html) 实现，其安装步骤请参考[官方说明](https://lucene.apache.org/pylucene/install.html)。
-Pylucene 安装过程较为繁琐，我们提供了 Pylucene 的 Singularity 环境镜像，您可以参考 [Singularity 安装文档](./Singularity安装与使用.md) 安装 Singularity 并[下载镜像](https://pan.baidu.com/s/1PqUnX7YRNMt9co3RKUwExw)（提取码：jhhl）。然后运行以下代码即可完成部署
-
+Pylucene 安装过程较为繁琐，我们提供了 Pylucene 的 [Singularity](https://getsingularity.com/) 环境镜像，您可以参考 [Singularity 安装文档](./Singularity安装与使用.md) 安装 Singularity 并[下载镜像](https://pan.baidu.com/s/1PqUnX7YRNMt9co3RKUwExw)（提取码：jhhl）。然后运行以下代码即可完成部署
 ```shell
 cd "/src/pylucene_task1" && singularity exec -B "/src/pylucene_task1":/mnt "/xxx/pylucene_singularity.sif" python /mnt/api.py --port "port"
 ```
