@@ -17,6 +17,12 @@ python ./pylucene_task/csv_files/api.py --port "端口"
 如果想更换检索数据集，可以参考我们的检索数据库格式自行进行修改： `./pylucene_task/csv_files/data_task.csv`
 。您也可以简单的修改 `./pylucene_task/csv_files/api.py` 中的代码支持更多的数据类型。
 
+注：
+
+- [task1 的数据库](./pylucene_task1/csv_files/) (法律法规数据集) 来自于 [LawRefBook](https://github.com/RanKKI/LawRefBook)
+
+- [task2 的数据库](./pylucene_task2/csv_files/) (案例判决数据集) 主要来自于 CAIL，[LeCaRD](https://github.com/myx666/LeCaRD) 以及我们的预训练数据。由于数据库规模较大，我们选取了 1k 条案例作为示例。
+
 ## 命令行 Demo
 
 ![img](../images/cli_demo_case1.png)
