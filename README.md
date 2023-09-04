@@ -1,4 +1,11 @@
 # 夫子•明察司法大模型
+<div align="center">
+  
+[![Generic badge](https://img.shields.io/badge/🤗-Huggingface%20Repo-green.svg)](https://huggingface.co/SDUIRLab/fuzi.mingcha-v1.0)
+[![license](https://img.shields.io/github/license/modelscope/modelscope.svg)](https://github.com/irlab-sdu/fuzi.mingcha/blob/main/LICENSE)
+<br>
+</div>
+
 
 ## 模型简介
 夫子•明察司法大模型由山东大学，浪潮云，中国政法大学联合开发，以ChatGLM为大模型底座，基于海量中文无监督司法语料（包括各类判决文书、法律法规等）与有监督司法领域微调数据（包括法律问答、类案检索、司法领域等）所训练的中文司法大模型。该模型支持法条检索、案例分析、三段论推理判决以及司法对话等功能，旨在为用户提供全方位、更精准的法律咨询与解答服务。
