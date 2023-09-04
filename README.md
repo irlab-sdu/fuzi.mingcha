@@ -228,7 +228,7 @@
 
 ## 模型部署
 
-
+模型的部署和使用请参考 [src/cli_demo.py](src/cli_demo.py)
 
 
 ## 致谢
@@ -256,7 +256,8 @@
 ```
 @misc{fuzi.mingcha,
   title={fuzi.mingcha},
-  author={Zhumin Chen, Zhaochun Ren, Pengjie Ren, Shen Gao, Xin Xin, Muyang Ma, Zhongkun Liu, Yougang Lü, Weiwei Sun, Shuyu Guo, Jiyuan Yang, Zhitao Yao, Shiguang Wu, Wenhao Zhang, Zhengliang Shi, Zhen Zhang and Zheng Chen}
+  author={},
+  author={Shiguang Wu, Zhongkun Liu, Zhen Zhang, Zheng Chen, Wentao Deng, Wenhao Zhang, Jiyuan Yang, Zhitao Yao, Yougang Lyu, Xin Xin, Shen Gao, Pengjie Ren, Zhaochun Ren, Zhumin Chen}
   year={2023},
   publisher={GitHub},
   journal={GitHub repository},
