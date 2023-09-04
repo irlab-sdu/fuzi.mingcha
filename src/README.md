@@ -13,8 +13,8 @@ python ./pylucene_task/csv_files/api.py --port "端口"
 
 ## 命令行 Demo
 
-![img](https://github.com/irlab-sdu/fuzi.mingcha/tree/main/images/cli_demo_case1.png)
-![img](https://github.com/irlab-sdu/fuzi.mingcha/tree/main/images/cli_demo_case2.png)
+![img](../images/cli_demo_case1.png)
+![img](../images/cli_demo_case2.png)
 
 运行仓库中 [cli_demo.py](cli_demo.py)：
 
