@@ -1,3 +1,9 @@
+## 依赖库安装
+
+1. 本项目的数据库检索部分使用 [PyLucene](https://lucene.apache.org/pylucene/index.html) 实现，其安装步骤请参考[官方说明](https://lucene.apache.org/pylucene/install.html)
+
+2. 夫子•明察的部署与 [ChatGLM](https://github.com/THUDM/ChatGLM-6B/tree/main#%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F) 相同，在命令行下执行 ` pip install -r requirements.txt` 即可
+
 ## 检索模块部署
 
 本项目检索模块使用 **pylucene** 进行构建，您也可以尝试使用其他检索方式，以下是 pylucene 的部署方式。
