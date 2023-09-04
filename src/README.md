@@ -1,7 +1,12 @@
 ## 依赖库安装
 
-1. 本项目的数据库检索部分使用 [PyLucene](https://lucene.apache.org/pylucene/index.html) 实现，其安装步骤请参考[官方说明](https://lucene.apache.org/pylucene/install.html)
+1. 本项目的数据库检索部分使用 [PyLucene](https://lucene.apache.org/pylucene/index.html) 实现，其安装步骤请参考[官方说明](https://lucene.apache.org/pylucene/install.html)。
+Pylucene 安装过程较为繁琐，我们提供了 Pylucene 的 Singularity 环境镜像，您可以参考 [Singularity 安装文档](./Singularity安装与使用.md) 安装 Singularity 并[下载镜像](https://pan.baidu.com/s/1PqUnX7YRNMt9co3RKUwExw)（提取码：jhhl）。然后运行以下代码即可完成部署
 
+```shell
+cd "/src/pylucene_task1" && singularity exec -B "/src/pylucene_task1":/mnt "/xxx/pylucene_singularity.sif" python /mnt/api.py --port "port"
+```
+请将`"/src/pylucene_task1"`换成自己实际的目录，`"/xxx/pylucene_singularity.sif"`是下载得到镜像。
 2. 夫子•明察的部署与 [ChatGLM](https://github.com/THUDM/ChatGLM-6B/tree/main#%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F) 相同，在命令行下执行 ` pip install -r requirements.txt` 即可
 
 ## 检索模块部署

@@ -262,7 +262,6 @@
 ```
 @misc{fuzi.mingcha,
   title={fuzi.mingcha},
-  author={},
   author={Shiguang Wu, Zhongkun Liu, Zhen Zhang, Zheng Chen, Wentao Deng, Wenhao Zhang, Jiyuan Yang, Zhitao Yao, Yougang Lyu, Xin Xin, Shen Gao, Pengjie Ren, Zhaochun Ren, Zhumin Chen}
   year={2023},
   publisher={GitHub},
