@@ -89,6 +89,9 @@ def main():
             if query in ["1", "2", "3", "4"]:
                 mod = int(query)
                 print_hello_task(mod)
+                if mod == 4:
+                    history = [["你好",
+                                "您好，我是夫子·明察，一个由山东大学信息检索实验室制作的司法语言模型。我主要用于回答用户法律相关的问题，提供法律知识和建议。"]]
             else:
                 print("输入无效")
                 continue
@@ -115,7 +118,7 @@ def main():
             retrieval_law = ""
             max_len = 1000  # 为避免对模型的输入过长，限制检索案例的长度，只保留最后 1000 个 tokens
             for i, doc in enumerate(docs):
-                retrieval_law = retrieval_law + f"第{i + 1}条：\n{doc[-max_len/len(docs):]}\n"
+                retrieval_law = retrieval_law + f"第{i + 1}条：\n{doc[-max_len / len(docs):]}\n"
             response, _ = chat(
                 prompt2_task2.replace("@检索得到的相关案例@", retrieval_law).replace("@用户输入@", query))
             print(f"\n\n夫子·明察·类案检索：\n{response}")
