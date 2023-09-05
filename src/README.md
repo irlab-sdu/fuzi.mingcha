@@ -6,6 +6,7 @@ Pylucene 安装过程较为繁琐，我们提供了 Pylucene 的 [Singularity](h
 cd "/src/pylucene_task1" && singularity exec -B "/src/pylucene_task1":/mnt "/xxx/pylucene_singularity.sif" python /mnt/api.py --port "port"
 ```
 请将`"/src/pylucene_task1"`换成自己实际的目录，`"/xxx/pylucene_singularity.sif"`是下载得到镜像。
+
 2. 夫子•明察的部署与 [ChatGLM](https://github.com/THUDM/ChatGLM-6B/tree/main#%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F) 相同，在命令行下执行 ` pip install -r requirements.txt` 即可
 
 ## 检索模块部署
