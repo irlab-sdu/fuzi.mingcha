@@ -5,8 +5,6 @@ import os
 import requests
 from transformers import AutoTokenizer, AutoModel
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
-
 parser = argparse.ArgumentParser()
 parser.add_argument("--url_lucene_task1", required=True, help="法条检索对应部署的 pylucene 的地址")
 parser.add_argument("--url_lucene_task2", required=True, help="类案检索对应部署的 pylucene 的地址")
