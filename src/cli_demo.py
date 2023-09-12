@@ -73,7 +73,7 @@ def main():
     while True:
         query = input("\n用户：")
         if not query.strip():
-            print("输入不能为空哦")
+            print("输入不能为空")
             continue
         if query.strip() == "stop":
             break
@@ -87,9 +87,6 @@ def main():
             if query in ["1", "2", "3", "4"]:
                 mod = int(query)
                 print_hello_task(mod)
-                if mod == 4:
-                    history = [["你好",
-                                "您好，我是夫子·明察，一个由山东大学信息检索实验室制作的司法语言模型。我主要用于回答用户法律相关的问题，提供法律知识和建议。"]]
             else:
                 print("输入无效")
                 continue
