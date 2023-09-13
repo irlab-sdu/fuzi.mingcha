@@ -237,12 +237,20 @@
 
 ## 致谢
 
-本项目基于如下开源项目展开，在此对相关项目和开发人员表示感谢：
+本项目基于或参考如下开源项目，在此对相关项目和开发人员表示感谢：
 
 - [Alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 - [BELLE](https://github.com/LianjiaTech/BELLE)
 - [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)
 - [ChatGLM-Efficient-Tuning](https://github.com/hiyouga/ChatGLM-Efficient-Tuning)
+- [Lawyer LLaMA](https://github.com/AndrewZhe/lawyer-llama)
+- [LaWGPT](https://github.com/pengxiao-song/LaWGPT)
+- [JEC-QA](https://jecqa.thunlp.org/)
+- [PKU Opendata](https://opendata.pku.edu.cn/dataset.xhtml?persistentId=doi:10.18170/DVN/OLO4G8)
+- [LawRefBook](https://github.com/RanKKI/LawRefBook)
+- [CAIL 2018-2021](https://github.com/china-ai-law-challenge)
+- [HanFei](https://github.com/siat-nlp/HanFei)
+- [BAAI](https://data.baai.ac.cn/details/OL-CC)
 
 
 ## 声明
