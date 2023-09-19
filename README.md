@@ -1,7 +1,7 @@
 # 夫子•明察司法大模型
 <div align="center">
   
-[![Generic badge](https://img.shields.io/badge/🤗-Huggingface%20Repo-green.svg)](https://huggingface.co/SDUIRLab/fuzi.mingcha-v1.0)
+[![Generic badge](https://img.shields.io/badge/🤗-Huggingface%20Repo-green.svg)](https://huggingface.co/SDUIRLab/fuzi-mingcha-v1_0)
 [![license](https://img.shields.io/github/license/modelscope/modelscope.svg)](https://github.com/irlab-sdu/fuzi.mingcha/blob/main/LICENSE)
 <br>
 </div>
