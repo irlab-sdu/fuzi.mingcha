@@ -12,10 +12,10 @@ args = parser.parse_args()
 
 print("正在加载模型")
 
-# /path/to/fuzi.mingcha-v1.0 为参数存放的具体路径
+# SDUIRLab/fuzi-mingcha-v1_0 为参数存放的具体路径
 
-tokenizer = AutoTokenizer.from_pretrained("/path/to/fuzi.mingcha-v1.0", trust_remote_code=True)
-model = AutoModel.from_pretrained("/path/to/fuzi.mingcha-v1.0",
+tokenizer = AutoTokenizer.from_pretrained("SDUIRLab/fuzi-mingcha-v1_0", trust_remote_code=True)
+model = AutoModel.from_pretrained("SDUIRLab/fuzi-mingcha-v1_0",
                                   trust_remote_code=True).half().cuda()
 model = model.eval()
 
