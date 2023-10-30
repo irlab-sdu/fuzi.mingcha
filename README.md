@@ -19,6 +19,11 @@
 
 我们已将夫子•明察的模型权重上传至 [HuggingFace/SDUIRLab](https://huggingface.co/SDUIRLab/fuzi-mingcha-v1_0)，模型的使用方法见 [#模型部署](#模型部署)。
 
+## 公开评测效果
+在 2023 年 9 月份由上海AI实验室联合南京大学推出的大语言模型司法能力评估体系[LawBench](https://github.com/open-compass/LawBench)中 (见下图)，我们在法律专精模型 (Law Specific LLMs) 中 Zero-Shot 表现出色，取得了**第一名**，与未经法律专业知识训练的 ChatGLM 相比有了较大提升。
+
+![image](https://github.com/irlab-sdu/fuzi.mingcha/assets/22994568/f3d3f95e-8730-4f27-95df-4435d6e338f2)
+
 ## 训练数据
 夫子•明察司法大模型的训练数据可分为两大类别：中文无监督司法语料以及有监督司法微调数据。其中不仅涵盖法律法规、司法解释、判决文书等内容，同时还包括各类高质量司法任务数据集，例如法律问答、类案检索和三段论式法律判决。内容丰富、优质海量的训练数据，确保了对司法领域知识进行准确且全面的覆盖，为夫子•明察司法大模型提供坚实的知识基础。
 
