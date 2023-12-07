@@ -60,7 +60,7 @@ def create_index():
     for filename in os.listdir(csv_folder_path):
         if filename.endswith(".csv"):
             path = os.path.join(csv_folder_path, filename)
-            with open(path, "r", encoding="gbk") as csvfile:
+            with open(path, "r", encoding="utf-8") as csvfile:
                 reader = csv.reader(csvfile)
                 headers = next(reader)
                 for row in reader:

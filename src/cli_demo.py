@@ -115,7 +115,7 @@ def main():
             retrieval_law = ""
             max_len = 1000  # 为避免对模型的输入过长，限制检索案例的长度，只保留最后 1000 个 tokens
             for i, doc in enumerate(docs):
-                retrieval_law = retrieval_law + f"第{i + 1}条：\n{doc[-max_len / len(docs):]}\n"
+                retrieval_law = retrieval_law + f"第{i + 1}条：\n{doc[int(-max_len / len(docs)):]}\n"
             response, _ = chat(
                 prompt2_task2.replace("@检索得到的相关案例@", retrieval_law).replace("@用户输入@", query))
             print(f"\n\n夫子·明察·类案检索：\n{response}")
