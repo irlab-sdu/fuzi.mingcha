@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Wu
+    given-names: Shiguang
+  - family-names: Liu
+    given-names: Zhongkun
+  - family-names: Zhang
+    given-names: Zhen
+  - family-names: Chen
+    given-names: Zheng
+  - family-names: Deng
+    given-names: Wentao
+  - family-names: Zhang
+    given-names: Wenhao
+  - family-names: Yang
+    given-names: Jiyuan
+  - family-names: Yao
+    given-names: Zhitao
+  - family-names: Lyu
+    given-names: Yougang
+  - family-names: Xin
+    given-names: Xin
+  - family-names: Gao
+    given-names: Shen
+  - family-names: Ren
+    given-names: Pengjie
+  - family-names: Ren
+    given-names: Zhaochun
+  - family-names: Chen
+    given-names: Zhumin
+title: "fuzi.mingcha"
+version: 2023
+identifiers:
+  - type: url
+    value: https://github.com/irlab-sdu/fuzi.mingcha
+date-released: 2023-09
