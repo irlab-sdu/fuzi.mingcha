@@ -163,7 +163,13 @@
 },
 ```
 
-注：其中我们自主构建的数据集，如三段论推理判决数据集等，将会在近期以论文的形式公开，感谢您的关注和理解。
+~~注：其中我们自主构建的数据集，如三段论推理判决数据集等，将会在近期以论文的形式公开，感谢您的关注和理解。~~
+
+注 1：利用三段论推理来选择和评估当事人的论点是一种常见的做法。三段论中包含大前提、小前提和结论三个部分，应用到法律领域中时，大前提通常是由相关法条构成的法律依据，小前提通常时由犯罪要件构成的案情分析结果，结论通常是由最终适用的法条和判决结果构成。在实践中，三段论是法官广泛使用的法律推理的标准形式，以确保逻辑论点是合理和无可争辩的。
+
+注 2：我们自主构建的数据集论文（三段推理判决数据等）已经发表在 EMNLP 2023 [1]，详细的数据构建方法及数据集内容请参考[论文代码](https://github.com/dengwentao99/SLJA)。
+
+[1]. Wentao Deng, Jiahuan Pei, Keyi Kong, Zhe Chen, Furu Wei, Yujun Li, Zhaochun Ren, Zhumin Chen, and Pengjie Ren. 2023. [Syllogistic Reasoning for Legal Judgment Analysis](https://aclanthology.org/2023.emnlp-main.864). In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 13997–14009, Singapore. Association for Computational Linguistics.
 
 ## 效果展示
 以下为夫子·明察三大特色的效果展示：<br>
@@ -272,13 +278,31 @@
 ## 引用
 
 如果本项目有帮助到您的研究，请引用我们：
+
 ```
-@misc{fuzi.mingcha,
-  title={fuzi.mingcha},
-  author={Shiguang Wu, Zhongkun Liu, Zhen Zhang, Zheng Chen, Wentao Deng, Wenhao Zhang, Jiyuan Yang, Zhitao Yao, Yougang Lyu, Xin Xin, Shen Gao, Pengjie Ren, Zhaochun Ren, Zhumin Chen}
-  year={2023},
-  publisher={GitHub},
-  journal={GitHub repository},
-  howpublished={\url{https://github.com/irlab-sdu/fuzi.mingcha}},
+@software{sdu_fuzi_mingcha,
+    title        = {{fuzi.mingcha}},
+    author       = {Wu, Shiguang and Liu, Zhongkun and Zhang, Zhen and Chen, Zheng and Deng, Wentao and Zhang, Wenhao and Yang, Jiyuan and Yao, Zhitao and Lyu, Yougang and Xin, Xin and Gao, Shen and Ren, Pengjie and Ren, Zhaochun and Chen, Zhumin},
+    year         = 2023,
+    journal      = {GitHub repository},
+    publisher    = {GitHub},
+    howpublished = {\url{https://github.com/irlab-sdu/fuzi.mingcha}}
 }
 ```
+
+```
+@inproceedings{deng-etal-2023-syllogistic,
+    title        = {Syllogistic Reasoning for Legal Judgment Analysis},
+    author       = {Deng, Wentao  and Pei, Jiahuan  and Kong, Keyi  and Chen, Zhe  and Wei, Furu  and Li, Yujun  and Ren, Zhaochun  and Chen, Zhumin  and Ren, Pengjie},
+    year         = 2023,
+    month        = dec,
+    booktitle    = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+    publisher    = {Association for Computational Linguistics},
+    address      = {Singapore},
+    pages        = {13997--14009},
+    doi          = {10.18653/v1/2023.emnlp-main.864},
+    url          = {https://aclanthology.org/2023.emnlp-main.864},
+    editor       = {Bouamor, Houda  and Pino, Juan  and Bali, Kalika}
+}
+```
+
