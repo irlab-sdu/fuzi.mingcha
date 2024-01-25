@@ -12,3 +12,4 @@ sse-starlette
 matplotlib
 protobuf
 cpm-kernels
+elasticsearch
