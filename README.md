@@ -1,7 +1,10 @@
 # 夫子•明察司法大模型
 <div align="center">
   
-[![Generic badge](https://img.shields.io/badge/🤗-Huggingface%20Repo-green.svg)](https://huggingface.co/SDUIRLab/fuzi-mingcha-v1_0)
+[![HF-Model](https://img.shields.io/badge/🤗Huggingface-Model-green.svg)](https://huggingface.co/SDUIRLab/fuzi-mingcha-v1_0)
+[![HF-Data](https://img.shields.io/badge/🤗Huggingface-Data-green.svg)](https://huggingface.co/datasets/SDUIRLab/fuzi-mingcha-v1_0-data)
+[![MS-Model](https://img.shields.io/badge/ModelScope-Model-a597fd.svg)](https://www.modelscope.cn/models/furyton/fuzi-mingcha-v1_0)
+[![MS-Data](https://img.shields.io/badge/ModelScope-Data-a597fd.svg)](https://www.modelscope.cn/datasets/furyton/fuzi-mingcha-v1_0-data)
 [![license](https://img.shields.io/github/license/modelscope/modelscope.svg)](https://github.com/irlab-sdu/fuzi.mingcha/blob/main/LICENSE)
 <br>
 </div>
@@ -17,7 +20,7 @@
 	
 - **三段论推理判决** 司法三段论，是把三段论的逻辑推理应用于司法实践的一种思维方式和方法。类比于三段论的结构特征，司法三段论就是法官在司法过程中将法律规范作为大前提，以案件事实为小前提，最终得出判决结果的一种推导方法。针对具体案件，夫子•明察大模型系统能够自动分析案情，识别关键的事实和法律法规，生成一个逻辑严谨的三段论式判决预测。这个功能不仅提供了对案件可能结果的有力洞察，还有助于帮助用户更好地理解案件的法律依据和潜在风险。
 
-我们已将夫子•明察的模型权重上传至 [HuggingFace/SDUIRLab](https://huggingface.co/SDUIRLab/fuzi-mingcha-v1_0)，模型的使用方法见 [#模型部署](#模型部署)。
+我们已将夫子•明察的模型权重上传至 [HuggingFace/SDUIRLab](https://huggingface.co/SDUIRLab/fuzi-mingcha-v1_0) 和 [魔搭社区](https://www.modelscope.cn/models/furyton/fuzi-mingcha-v1_0)，模型的使用方法见 [#模型部署](#模型部署)。
 
 ## 公开评测效果
 在 2023 年 9 月份由上海AI实验室联合南京大学推出的大语言模型司法能力评估体系[LawBench](https://github.com/open-compass/LawBench)中 (见下图)，我们在法律专精模型 (Law Specific LLMs) 中 Zero-Shot 表现出色，取得了**第一名**，与未经法律专业知识训练的 ChatGLM 相比有了较大提升。
@@ -26,6 +29,8 @@
 
 ## 训练数据
 夫子•明察司法大模型的训练数据可分为两大类别：中文无监督司法语料以及有监督司法微调数据。其中不仅涵盖法律法规、司法解释、判决文书等内容，同时还包括各类高质量司法任务数据集，例如法律问答、类案检索和三段论式法律判决。内容丰富、优质海量的训练数据，确保了对司法领域知识进行准确且全面的覆盖，为夫子•明察司法大模型提供坚实的知识基础。
+
+我们已将微调数据上传至 [HuggingFace/SDUIRLab](https://huggingface.co/datasets/SDUIRLab/fuzi-mingcha-v1_0-data) 和 [魔搭社区](https://www.modelscope.cn/datasets/furyton/fuzi-mingcha-v1_0-data)，我们提供了 `dataset_info.json`，数据使用方法可以参考 [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory/blob/main/README_zh.md#%E6%95%B0%E6%8D%AE%E5%87%86%E5%A4%87)。
 
 以下为夫子·明察司法大模型增量预训练、指令微调过程中所使用数据的统计信息：
 
