@@ -3,12 +3,18 @@
   
 [![HF-Model](https://img.shields.io/badge/🤗Huggingface-Model-green.svg)](https://huggingface.co/SDUIRLab/fuzi-mingcha-v1_0)
 [![HF-Data](https://img.shields.io/badge/🤗Huggingface-Data-green.svg)](https://huggingface.co/datasets/SDUIRLab/fuzi-mingcha-v1_0-data)
+[![HF-Data](https://img.shields.io/badge/🤗Huggingface-PretrainData-green.svg)](https://huggingface.co/datasets/SDUIRLab/fuzi-mingcha-v1_0-pretrain-data)
 [![MS-Model](https://img.shields.io/badge/ModelScope-Model-a597fd.svg)](https://www.modelscope.cn/models/furyton/fuzi-mingcha-v1_0)
 [![MS-Data](https://img.shields.io/badge/ModelScope-Data-a597fd.svg)](https://www.modelscope.cn/datasets/furyton/fuzi-mingcha-v1_0-data)
 [![license](https://img.shields.io/github/license/modelscope/modelscope.svg)](https://github.com/irlab-sdu/fuzi.mingcha/blob/main/LICENSE)
 <br>
 </div>
 
+## News
+
+- [2024.10.25] 🔥 更新预训练数据集，详见 [HuggingFace](https://huggingface.co/datasets/SDUIRLab/fuzi-mingcha-v1_0-pretrain-data)。
+
+- [2024.9.19] 我们已将微调数据上传至 [HuggingFace/SDUIRLab](https://huggingface.co/datasets/SDUIRLab/fuzi-mingcha-v1_0-data) 和 [魔搭社区](https://www.modelscope.cn/datasets/furyton/fuzi-mingcha-v1_0-data)，我们提供了 `dataset_info.json`，数据使用方法可以参考 [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory/blob/main/README_zh.md#%E6%95%B0%E6%8D%AE%E5%87%86%E5%A4%87)。
 
 ## 模型简介
 夫子•明察司法大模型是由山东大学、浪潮云、中国政法大学联合研发，以 [ChatGLM](https://github.com/THUDM/ChatGLM-6B) 为大模型底座，基于海量中文无监督司法语料（包括各类判决文书、法律法规等）与有监督司法微调数据（包括法律问答、类案检索）训练的中文司法大模型。该模型支持法条检索、案例分析、三段论推理判决以及司法对话等功能，旨在为用户提供全方位、高精准的法律咨询与解答服务。
@@ -30,7 +36,6 @@
 ## 训练数据
 夫子•明察司法大模型的训练数据可分为两大类别：中文无监督司法语料以及有监督司法微调数据。其中不仅涵盖法律法规、司法解释、判决文书等内容，同时还包括各类高质量司法任务数据集，例如法律问答、类案检索和三段论式法律判决。内容丰富、优质海量的训练数据，确保了对司法领域知识进行准确且全面的覆盖，为夫子•明察司法大模型提供坚实的知识基础。
 
-我们已将微调数据上传至 [HuggingFace/SDUIRLab](https://huggingface.co/datasets/SDUIRLab/fuzi-mingcha-v1_0-data) 和 [魔搭社区](https://www.modelscope.cn/datasets/furyton/fuzi-mingcha-v1_0-data)，我们提供了 `dataset_info.json`，数据使用方法可以参考 [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory/blob/main/README_zh.md#%E6%95%B0%E6%8D%AE%E5%87%86%E5%A4%87)。
 
 以下为夫子·明察司法大模型增量预训练、指令微调过程中所使用数据的统计信息：
 
