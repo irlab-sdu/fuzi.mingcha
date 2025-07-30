@@ -290,51 +290,48 @@
 如果本项目有帮助到您的研究，请引用我们：
 
 ```
-@software{sdu_fuzi_mingcha,
-  author       = {Wu, Shiguang and
-                  Liu, Zhongkun and
-                  Zhang, Zhen and
-                  Chen, Zheng and
-                  Deng, Wentao and
-                  Zhang, Wenhao and
-                  Yang, Jiyuan and
-                  Yao, Zhitao and
-                  Lyu, Yougang and
-                  Xin, Xin and
-                  Gao, Shen and
-                  Ren, Pengjie and
-                  Ren, Zhaochun and
-                  Chen, Zhumin},
-  title        = {fuzi.mingcha},
-  month        = jul,
-  year         = 2025,
-  publisher    = {Zenodo},
-  version      = {zenodo},
-  doi          = {10.5281/zenodo.16592902},
-  url          = {https://doi.org/10.5281/zenodo.16592902},
-  swhid        = {swh:1:dir:04e2de453e0373496fd7aa23277257adb5cceeff
-                   ;origin=https://doi.org/10.5281/zenodo.16592901;vi
-                   sit=swh:1:snp:b34297b440895f901e4b76e95a4ffc0691d8
-                   466d;anchor=swh:1:rel:bf1c2aef92fb653f33bd267d9798
-                   3143fac06015;path=irlab-sdu-fuzi.mingcha-3cecd99
-                  },
+@software{sdu2023fuzimingcha,
+	title        = {fuzi.mingcha},
+	author       = {Wu, Shiguang and Liu, Zhongkun and Zhang, Zhen and Chen, Zheng and Deng, Wentao and Zhang, Wenhao and Yang, Jiyuan and Yao, Zhitao and Lyu, Yougang and Xin, Xin and Gao, Shen and Ren, Pengjie and Ren, Zhaochun and Chen, Zhumin},
+	year         = 2023,
+	month        = dec,
+	publisher    = {Zenodo},
+	doi          = {10.5281/zenodo.16592902},
+	url          = {https://doi.org/10.5281/zenodo.16592902},
+	version      = {zenodo},
+	swhid        = {swh:1:dir:04e2de453e0373496fd7aa23277257adb5cceeff ;origin=https://doi.org/10.5281/zenodo.16592901;vi sit=swh:1:snp:b34297b440895f901e4b76e95a4ffc0691d8 466d;anchor=swh:1:rel:bf1c2aef92fb653f33bd267d9798 3143fac06015;path=irlab-sdu-fuzi.mingcha-3cecd99}
 }
 
-```
+@inproceedings{deng2023syllogistic,
+	title        = {Syllogistic Reasoning for Legal Judgment Analysis},
+	author       = {Deng, Wentao  and Pei, Jiahuan  and Kong, Keyi  and Chen, Zhe  and Wei, Furu  and Li, Yujun  and Ren, Zhaochun  and Chen, Zhumin  and Ren, Pengjie},
+	year         = 2023,
+	month        = dec,
+	booktitle    = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+	publisher    = {Association for Computational Linguistics},
+	address      = {Singapore},
+	pages        = {13997--14009},
+	doi          = {10.18653/v1/2023.emnlp-main.864},
+	url          = {https://aclanthology.org/2023.emnlp-main.864},
+	editor       = {Bouamor, Houda  and Pino, Juan  and Bali, Kalika}
+}
 
-```
-@inproceedings{deng-etal-2023-syllogistic,
-    title        = {Syllogistic Reasoning for Legal Judgment Analysis},
-    author       = {Deng, Wentao  and Pei, Jiahuan  and Kong, Keyi  and Chen, Zhe  and Wei, Furu  and Li, Yujun  and Ren, Zhaochun  and Chen, Zhumin  and Ren, Pengjie},
-    year         = 2023,
-    month        = dec,
-    booktitle    = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
-    publisher    = {Association for Computational Linguistics},
-    address      = {Singapore},
-    pages        = {13997--14009},
-    doi          = {10.18653/v1/2023.emnlp-main.864},
-    url          = {https://aclanthology.org/2023.emnlp-main.864},
-    editor       = {Bouamor, Houda  and Pino, Juan  and Bali, Kalika}
+@article{lyu2022improving,
+	title        = {Improving legal judgment prediction through reinforced criminal element extraction},
+	author       = {Lyu, Yougang and Wang, Zihan and Ren, Zhaochun and Ren, Pengjie and Chen, Zhumin and Liu, Xiaozhong and Li, Yujun and Li, Hongsong and Song, Hongye},
+	year         = 2022,
+	journal      = {Information Processing \& Management},
+	publisher    = {Elsevier},
+	volume       = 59,
+	number       = 1,
+	pages        = 102780
+}
+
+@inproceedings{lyu2023multi,
+	title        = {Multi-Defendant Legal Judgment Prediction via Hierarchical Reasoning},
+	author       = {Lyu, Yougang and Hao, Jitai and Wang, Zihan and Zhao, Kai and Gao, Shen and Ren, Pengjie and Chen, Zhumin and Wang, Fang and Ren, Zhaochun},
+	year         = 2023,
+	booktitle    = {Findings of the Association for Computational Linguistics: EMNLP 2023},
+	pages        = {2198--2209}
 }
 ```
-
