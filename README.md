@@ -291,13 +291,35 @@
 
 ```
 @software{sdu_fuzi_mingcha,
-    title        = {{fuzi.mingcha}},
-    author       = {Wu, Shiguang and Liu, Zhongkun and Zhang, Zhen and Chen, Zheng and Deng, Wentao and Zhang, Wenhao and Yang, Jiyuan and Yao, Zhitao and Lyu, Yougang and Xin, Xin and Gao, Shen and Ren, Pengjie and Ren, Zhaochun and Chen, Zhumin},
-    year         = 2023,
-    journal      = {GitHub repository},
-    publisher    = {GitHub},
-    howpublished = {\url{https://github.com/irlab-sdu/fuzi.mingcha}}
+  author       = {Wu, Shiguang and
+                  Liu, Zhongkun and
+                  Zhang, Zhen and
+                  Chen, Zheng and
+                  Deng, Wentao and
+                  Zhang, Wenhao and
+                  Yang, Jiyuan and
+                  Yao, Zhitao and
+                  Lyu, Yougang and
+                  Xin, Xin and
+                  Gao, Shen and
+                  Ren, Pengjie and
+                  Ren, Zhaochun and
+                  Chen, Zhumin},
+  title        = {fuzi.mingcha},
+  month        = jul,
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {zenodo},
+  doi          = {10.5281/zenodo.16592902},
+  url          = {https://doi.org/10.5281/zenodo.16592902},
+  swhid        = {swh:1:dir:04e2de453e0373496fd7aa23277257adb5cceeff
+                   ;origin=https://doi.org/10.5281/zenodo.16592901;vi
+                   sit=swh:1:snp:b34297b440895f901e4b76e95a4ffc0691d8
+                   466d;anchor=swh:1:rel:bf1c2aef92fb653f33bd267d9798
+                   3143fac06015;path=irlab-sdu-fuzi.mingcha-3cecd99
+                  },
 }
+
 ```
 
 ```
